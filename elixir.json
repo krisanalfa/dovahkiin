@@ -1,0 +1,11 @@
+{
+    "publicPath": "dist",
+
+    "notifications": false,
+
+    "assetsPath": "src",
+
+    "js": {
+        "folder": ""
+    }
+}
