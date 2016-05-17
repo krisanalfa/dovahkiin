@@ -2,10 +2,11 @@
 
 ### Technology being used:
 
-- Express JS [with ES6 (ES 2015) syntax]
-- Gulp
-- Bootstrap (SASS)
-- Angular JS
+- [Express JS](http://expressjs.com/) [with ES6 (ES 2015) syntax]
+- [Sequelize](http://docs.sequelizejs.com/en/latest/) ([MySQL](https://github.com/felixge/node-mysql))
+- [Gulp](http://gulpjs.com/)
+- [Bootstrap](https://getbootstrap.com/) ([SASS](https://github.com/twbs/bootstrap-sass))
+- [Angular JS](https://angularjs.org/)
 
 ### Quick Start
 
