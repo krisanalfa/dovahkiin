@@ -18,3 +18,9 @@ npm run dev
 ```
 
 > **NOTE:** Use `npm run prod` on production server
+
+### Resource URL
+
+- You need to import database first
+- Configure your `.env` file
+- Go to `http://localhost:3000/country` or `http://localhost:3000/country/{id}`

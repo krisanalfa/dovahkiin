@@ -3,7 +3,10 @@ var elixir  = require('laravel-elixir'),
   babel   = require('gulp-babel'),
   nodemon = require('gulp-nodemon'),
   exec    = require('child_process').exec,
-  path    = require('path');
+  path    = require('path'),
+  dotenv   = require('dotenv');
+
+dotenv.config();
 
 elixir.extend('babelify', function() {
   new elixir.Task('babelify', function() {
@@ -33,8 +36,6 @@ gulp.task('start', ['default'], function () {
       var tasks = [];
 
       changedFiles.forEach(function (file) {
-        console.log(file, path.extname(file));
-
         if (path.extname(file) === '.js' && !~tasks.indexOf('browserify')) tasks.push('browserify')
         if (path.extname(file) === '.scss' && !~tasks.indexOf('sass')) tasks.push('sass')
         if (path.extname(file) === '.jsx' && !~tasks.indexOf('babelify')) tasks.push('babelify')
