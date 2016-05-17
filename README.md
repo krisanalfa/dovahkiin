@@ -2,9 +2,10 @@
 
 ### Technology being used:
 
-- Express JS
+- Express JS [with ES6 (ES 2015) syntax]
 - Gulp
-- ES6 (ES 2015) syntax
+- Bootstrap (SASS)
+- Angular JS
 
 ### Quick Start
 
