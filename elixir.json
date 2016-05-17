@@ -1,11 +1,17 @@
 {
-    "publicPath": "dist",
+  "publicPath": "dist/public",
 
-    "notifications": false,
+  "notifications": false,
 
-    "assetsPath": "src",
+  "assetsPath": "src",
 
-    "js": {
-        "folder": ""
+  "js": {
+    "folder": ""
+  },
+
+  "css": {
+    "sass": {
+      "folder": "client/sass"
     }
+  }
 }

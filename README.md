@@ -11,15 +11,9 @@
 ```sh
 git clone https://github.com/krisanalfa/dovahkiin.git
 cd dovahkiin
+bower install
 npm install
 npm run dev
 ```
 
 > **NOTE:** Use `npm run prod` on production server
-
-### ToDo
-
-- Compile javascript asset using Browserify
-- Compile CSS asset using SASS
-- Angular JS
-- Any suggestion?
