@@ -52,7 +52,6 @@ gulp.task('run', ['default'], function () {
     console.log(stdout);
     console.log(stderr);
 
-    cb(err);
   });
 });
 
